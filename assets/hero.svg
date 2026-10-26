@@ -18,7 +18,7 @@
 @keyframes grow { to { transform: scaleX(1); } }
 @media (prefers-reduced-motion: reduce) { .pattern { opacity: .1; } .khatim { stroke-dashoffset: 0; }
   .ink, .salam { fill-opacity: 1; stroke-dashoffset: 0; } .en { opacity: 1; } .rule { transform: none; } }
-@media (prefers-reduced-motion: reduce) { * { animation: none !important; } .reveal { opacity: 1 !important; transform: none !important; } }</style>
+@media (prefers-reduced-motion: reduce) { * { animation: none !important; } }</style>
 <defs>
   <radialGradient id="fade" cx=".5" cy=".42" r=".62">
     <stop offset="0" stop-color="#fff" stop-opacity="0"/><stop offset=".5" stop-color="#fff" stop-opacity=".3"/><stop offset="1" stop-color="#fff" stop-opacity="1"/>
